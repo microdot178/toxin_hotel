@@ -34,9 +34,9 @@ body {
 }
 
 .navigation_bar {
-	position: absolute;
-	top: 20px;
-	left: 30%;
+	margin-top: 20px;
+	margin-right: 5%;
+	float: right;
 	display: inline-block;
 
 	font-family: Montserrat;
@@ -58,7 +58,7 @@ body {
 	height: 34px;
 	margin-left: 15px;
 
-
+	background: #FFFFFF;
 	border-image-source: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
 	border: 2px solid;
 	border-radius: 22px;
@@ -113,7 +113,7 @@ body {
 .room_reservation {
 	position: absolute;
 	width: 380px;
-	height: 374px;
+	height: 395px;
 	left: 140px;
 	top: 140px;
 
@@ -125,7 +125,7 @@ body {
 }
 
 .room_reservation_items {
-	display: inline-flex;
+	display: flex;
 	flex-wrap: wrap;
 }
 
@@ -146,6 +146,15 @@ body {
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 18px;
+
+	background: url('/src/images/expand_more.svg');
+
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	background-position: 125px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 
 	/* or 129% */
 
@@ -170,6 +179,16 @@ body {
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 18px;
+
+	background: url('/src/images/expand_more.svg');
+
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	background-position: 295px;
+	
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 
 	/* or 129% */
 
@@ -270,9 +289,15 @@ body {
 }
 
 .footer_item {
+	float: left;
 	width: 200px;
 	margin-top: 100px;
-	margin-left: 30px;
+
+}
+
+.footer_subscription {
+	margin-top: 100px;
+	width: 300px;
 }
 
 .footer_block_name {
@@ -300,6 +325,32 @@ body {
 	color: rgba(31, 32, 65, 0.5);
 }
 
+.email_input {
+	width: 260px;
+	height: 44px;
+	margin-left: 40px;
+
+	background: #FFFFFF;
+	border: 1px solid rgba(31, 32, 65, 0.25);
+	box-sizing: border-box;
+	border-radius: 4px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+
+	/* identical to box height, or 171% */
+
+	/* Dark 25% */
+	color: rgba(31, 32, 65, 0.25);
+	background: url('/src/images/arrow_forward.svg');
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	background-position: 225px;
+}
+
 /* end footer */
 
 
@@ -321,7 +372,7 @@ body {
 	height: 18px;
 
 	top: 26px;
-	left: 5%;
+	left: 10%;
 
 	font-family: Montserrat;
 	font-style: normal;
