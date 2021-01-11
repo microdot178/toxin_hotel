@@ -108,6 +108,35 @@ body {
 	cursor: pointer;
 }
 
+.menu_btn {
+	width: 60px;
+	height: 34px;
+	margin-top: 20px;
+	margin-right: 3%;
+	float: right;
+
+	background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+	border: 0;
+	border-radius: 22px;
+
+		text-align: center;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+
+	/* identical to box height */
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+
+	cursor: pointer;
+
+	display: none;
+}
+
 /* end header */
 
 /* content */
@@ -172,7 +201,7 @@ body {
 }
 
 .select_guests {
-	width: 320px;
+	width: 325px;
 	height: 44px;
 	margin-left: 25px;
 
@@ -209,6 +238,7 @@ body {
 	width: 83px;
 	height: 15px;
 	margin-left: 25px;
+	margin-top: 0;
 
 	font-family: Montserrat;
 	font-style: normal;
@@ -226,8 +256,8 @@ body {
 .room_reservation_buton {
 	width: 320px;
 	height: 44px;
-
 	margin-left: 27px;
+	margin-top: 15px;
 
 	background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
 	border: 0;
@@ -249,6 +279,7 @@ body {
 }
 
 .inscription_room_reservation {
+
 	padding-top: 40px;
 	padding: 30px;
 	font-family: Montserrat;
@@ -261,10 +292,12 @@ body {
 	color: #1F2041;
 }
 
-.inscription_best_room {
+.inscription_best_rooms {
+	position: absolute;
 	width: 297px;
 	height: 48px;
-	float: right;
+	right: 2%;
+	top: 834px;
 
 	font-family: Montserrat;
 	font-style: normal;
@@ -284,17 +317,19 @@ body {
 /* footer */
 .footer_widgets {
 	width: 100%;
-	min-height: 372px;
+	height: 372px;
 
 	display: inline-flex;
-	flex-wrap: wrap;
 	justify-content: center;
+	flex-wrap: nowrap;
+  	overflow-x: auto;
 
 	background: #FFFFFF;
 	box-shadow: 0px 1px 0px rgba(31, 32, 65, 0.1);
 }
 
 .footer_item {
+	flex: 0 0 auto;
 	width: 200px;
 	margin-top: 100px;
 	margin-left: 20px;
@@ -429,3 +464,12 @@ body {
 	margin-left: 10px;
 }
 /* end copyright */
+
+@media only screen and (max-width: 1000px) {
+    .navigation_bar{    
+        display: none;
+    }
+    .menu_btn {
+    	display: block;
+    }
+}
