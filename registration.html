@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="src/css/index.css">
+    <link rel="stylesheet" type="text/css" href="src/css/registration.css">
     <link rel="shortcut icon" href="/src/images/favicon.ico" type="image/x-icon">  
     <title> Toxin Hotel </title>
 </head>
@@ -33,34 +33,45 @@
 
 <!-- content -->
 <div class="content">
-	<div class="room_reservation">
-		<div class="inscription_room_reservation">Найдем номера под ваши предложения</div>
+	<div class="registration_block">
+		
+		<div class="inscription_registration">Регистрация аккаунта</div>
+		
+		<div class="registration_block_items">
+			<div class="registration_item_1"> <!-- имя, фамилия и выбор пола -->
+				<input class="registration_form" placeholder="Имя">
+				<input class="registration_form" placeholder="Фамилия">
 
-		<div class="room_reservation_items">
-			
-			<div><p class="select_name">прибытие</p>
-				<p><select class="select_date">
-					<option>ДД.ММ.ГГГГ</option>
-				</select></p>
-			</div>
-			
-			<div><p class="select_name">выезд</p>
-				<p><select class="select_date">
-					<option>ДД.ММ.ГГГГ</option>
-				</select></p>
-			</div>
-			
-			<div><p class="select_name">гости</p>
-				<p><select class="select_guests">
-					<option>Сколько гостей</option>
-				</select></p>
-			</div>
+				<div class="registration_labels">
+					<label class="custom-radio">
+		  				<input type="radio" name="color" value="indigo">
+		  				<span class="checkbox_span">Мужчина</span>
+					</label>
 
+					<label class="custom-radio">
+		  				<input type="radio" name="color" value="indigo">
+		  				<span class="checkbox_span">Женщина</span>
+					</label>
+				</div>
+			</div> <!-------------->
+
+			<div class="registration_item_2"> <!-- дата рождения -->
+				<div class="inscription_2_registration">Дата рождения</div>
+				<input class="registration_form" placeholder="ДД.ММ.ГГГГ">
+			</div> <!-------------->
+			
+			<div class="registration_item_3"> <!-- данные для входа в сервис-->
+				<div class="inscription_2_registration">Данный для входа в сервис</div>
+				<input class="registration_form" placeholder="Пароль">
+				<input class="registration_form" placeholder="Email">
+			</div> <!-------------->
+			
+			<button href="#" class="block_registration__registration_btn">Зарегистрироваться</button>
+			<div class="inscription_3_registration">У вас уже есть аккаунт на Toxin</div>
+			<button href="#" class="block_registration__login_btn">Войти</button>
 		</div>
-		<button href="#" class="room_reservation_buton">подобрать номер</button>
 
-	</div>
-	<div class="inscription_best_rooms">Лучшие номера для вашей работы, отдыха и просто вдохновения</div>	
+	</div>	
 </div><!-- /content -->
 
 <!-- footer -->

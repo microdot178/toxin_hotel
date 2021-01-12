@@ -1,0 +1,555 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.landing_page {
+	
+	position: relative;
+
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
+	background: url('/src/images/image_4.png');
+}
+
+/* header */
+.header {
+	width: 100%;
+	height: 70px;
+
+	left: 0px;
+	top: 0px;
+
+	background: #FFFFFF;
+	box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+}
+
+.logo {
+	position: absolute;
+	left: 10%;
+	top: 15px;
+}
+
+.navigation_bar {
+	margin-top: 20px;
+	margin-right: 5%;
+	float: right;
+	display: inline-block;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+
+	/* Dark 50% */
+	color: rgba(31, 32, 65, 0.5);
+}
+
+.navigation_bar_item {
+	margin-left: 15px;
+	cursor: pointer;
+}
+
+.login_btn {
+	width: 87px;
+	height: 34px;
+	margin-left: 15px;
+
+	background: #FFFFFF;
+	border-image-source: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+	border: 2px solid;
+	border-radius: 22px;
+
+
+	text-align: center;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+
+	/* identical to box height */
+	text-transform: uppercase;
+
+	color: #BC9CFF;
+
+	cursor: pointer;
+}
+
+.registration_btn {
+	width: 196px;
+	height: 34px;
+	margin-left: 15px;
+
+	background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+	border: 0;
+	border-radius: 22px;
+
+
+	text-align: center;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+
+	/* identical to box height */
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+
+	cursor: pointer;
+}
+
+.menu_btn {
+	width: 60px;
+	height: 34px;
+	margin-top: 20px;
+	margin-right: 3%;
+	float: right;
+
+	background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+	border: 0;
+	border-radius: 22px;
+
+		text-align: center;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+
+	/* identical to box height */
+	text-transform: uppercase;
+
+
+	color: #FFFFFF;
+
+	cursor: pointer;
+
+	display: none;
+}
+
+/* end header */
+
+/* content */
+.content {
+	width: 100%;
+	height: 680px;
+	display: flex;
+	justify-content: center;
+}
+
+.registration_block {
+	width: 380px;
+	height: 580px;
+	margin-top: 30px;
+
+	background: #FFFFFF;
+	border: 1px solid rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+
+}
+
+.registration_block_items {
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.registration_item_1 {
+	margin-left: 30px;
+}
+
+.registration_item_2 {
+	margin-top: 20px;
+
+}
+
+.registration_item_3 {
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+.inscription_registration {
+	padding-top: 30px;
+	margin-left: 28px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+
+	/* Dark 100% */
+	color: #1F2041;
+}
+
+.checkboxes {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+
+	/* identical to box height, or 171% */
+
+	/* Dark 75% */
+	color: rgba(31, 32, 65, 0.75);
+}
+
+.registration_form {
+	width: 320px;
+	height: 44px;
+
+	margin-bottom: 0;
+	padding: 0;
+
+	background: #FFFFFF;
+	border: 1px solid rgba(31, 32, 65, 0.25);
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin-top: 14px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+
+	/* identical to box height, or 171% */
+
+	/* Dark 25% */
+	color: rgba(31, 32, 65, 0.25);
+	padding-left: 15px;
+}
+
+.block_registration__registration_btn {
+	width: 320px;
+	height: 44px;
+
+	margin-top: 15px;
+
+	background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+	border: 0;
+	border-radius: 22px;
+
+
+	text-align: center;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+
+	/* identical to box height */
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+
+	cursor: pointer;
+}
+
+.inscription_2_registration {
+	width: 241px;
+	height: 1px;
+	margin-right: 70px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+
+	/* identical to box height */
+	text-transform: uppercase;
+
+	/* Dark 100% */
+	color: #1F2041;
+}
+
+.inscription_3_registration {
+	width: 186px;
+	height: 18px;
+	margin-right: 25px;
+	margin-top: 35px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+
+	/* identical to box height, or 129% */
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+}
+
+.block_registration__login_btn {
+	width: 99px;
+	height: 44px;
+	margin-top: 20px;
+
+	background: #FFFFFF;
+	border-image-source: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+	border: 2px solid;
+	border-radius: 22px;
+
+
+	text-align: center;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+
+	/* identical to box height */
+	text-transform: uppercase;
+
+	color: #BC9CFF;
+
+	cursor: pointer;
+}
+
+/* end content */
+
+
+/* footer */
+.footer_widgets {
+	width: 100%;
+	height: 372px;
+
+	display: inline-flex;
+	justify-content: center;
+	flex-wrap: nowrap;
+  	overflow-x: auto;
+
+	background: #FFFFFF;
+	box-shadow: 0px 1px 0px rgba(31, 32, 65, 0.1);
+}
+
+.footer_item {
+	flex: 0 0 auto;
+	width: 200px;
+	margin-top: 100px;
+	margin-left: 20px;
+
+}
+
+.footer_subscription {
+	margin-top: 100px;
+	width: 300px;
+}
+
+.footer_block_name {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+
+	/* identical to box height */
+	text-transform: uppercase;
+
+	/* Dark 100% */
+	color: #1F2041;
+	list-style-type: none;
+}
+
+.footer_li {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 35px;
+	list-style-type: none;
+
+	/* Dark 50% */
+	color: rgba(31, 32, 65, 0.5);
+}
+
+.footer_li_first {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	list-style-type: none;
+
+	/* Dark 50% */
+	color: rgba(31, 32, 65, 0.5);
+}
+
+.footer_li_last {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	list-style-type: none;
+	margin-top: 14px;
+
+	/* Dark 50% */
+	color: rgba(31, 32, 65, 0.5);
+}
+
+.email_input {
+	width: 260px;
+	height: 44px;
+
+	background: #FFFFFF;
+	border: 1px solid rgba(31, 32, 65, 0.25);
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin-top: 14px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+
+	/* identical to box height, or 171% */
+
+	/* Dark 25% */
+	color: rgba(31, 32, 65, 0.25);
+	background: url('/src/images/arrow_forward.svg');
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	background-position: 225px;
+}
+
+/* end footer */
+
+
+/* copyright */
+.copyright_block {
+	position: absolute;
+	width: 100%;
+	height: 70px;
+	left: -1px;
+	margin-top: 1px;
+
+	background: #FFFFFF;
+	box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+}
+
+.copyright {
+	position: absolute;
+	width: 367px;
+	height: 18px;
+
+	top: 26px;
+	left: 10%;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+
+	/* Dark 75% */
+	color: rgba(31, 32, 65, 0.75);
+}
+
+.social {
+	float: right;
+	margin-top: 26px;
+	margin-right: 5%;
+}
+
+.facebook_button {
+	margin-left: 10px;
+}
+
+.instagram_button {
+	margin-left: 10px;
+}
+/* end copyright */
+
+@media only screen and (max-width: 1000px) {
+    .navigation_bar{    
+        display: none;
+    }
+    .menu_btn {
+    	display: block;
+    }
+}
+
+
+
+
+/* custom checkbox для блока регистрации */
+
+.checkbox_span {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+
+	/* identical to box height, or 171% */
+
+	/* Dark 75% */
+	color: rgba(31, 32, 65, 0.75);
+}
+
+/* для элемента input c type="radio" */
+
+.custom-radio>input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+/* для элемента label связанного с .custom-radio */
+.custom-radio>span {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+
+/* создание в label псевдоэлемента  before со следующими стилями */
+.custom-radio>span::before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #BC9CFF;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+
+}
+
+/* стили для активной радиокнопки (при нажатии на неё) */
+.custom-radio>input:not(:disabled):active+span::before {
+  background-color: #BC9CFF;
+  border-color: #BC9CFF;
+}
+
+/* стили для радиокнопки, находящейся в состоянии checked */
+.custom-radio>input:checked+span::before {
+  border-color: #BC9CFF;
+  background-color: #FFFFFF;
+  background-image: url("/src/images/rectagle_2.1.svg");
+
+/* стили для радиокнопки, находящейся в состоянии disabled */
+.custom-radio>input:disabled+span::before {
+  background-color: #FFFFFF;
+}
