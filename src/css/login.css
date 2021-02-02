@@ -144,7 +144,7 @@ body {
 	height: 650px;
 	display: flex;
 	justify-content: center;
-	background: url("/src/images/image_4.png") no-repeat center/cover;
+	background: url("src/images/image_4.png") no-repeat center/cover;
 }
 
 .login_block {
